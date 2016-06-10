@@ -12,6 +12,6 @@ The idea is to have subdomains mapping to your localhost ports.
 ```shell
 cp .config-sample .config
 nano .config
-# fill in your subdomains and ports
+# fill in your IP, subdomains and ports
 ./.config
 ```
