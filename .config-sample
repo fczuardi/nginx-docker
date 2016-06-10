@@ -1,6 +1,8 @@
 #!/bin/sh
 
-./tasks/makeconf.sh \
+ipAddress=INSERT_YOUR_IP_ADDRESS_HERE
+
+./tasks/makeconf.sh "${ipAddress}" \
     foo.example.com:3000 \
     bar.example.com:4000 \
     baz.example.com:5000
