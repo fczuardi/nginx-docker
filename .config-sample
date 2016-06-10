@@ -1,0 +1,10 @@
+#!/bin/sh
+
+./tasks/makeconf.sh \
+    foo.example.com:3000 \
+    bar.example.com:4000 \
+    baz.example.com:5000
+
+./tasks/build.sh
+
+./tasks/start.sh
